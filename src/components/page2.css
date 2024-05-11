@@ -1,0 +1,141 @@
+.body2{
+    background-color: #EBEBEB;
+    height: 3600px;
+    overflow-x: hidden;  
+}
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    color: #000;
+    font-family: Cabin;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 105px;
+    margin-left: 30px;
+}
+.BlackBox{
+    width: 729px;
+    height: 1200px;
+    flex-shrink: 0;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left:0px;
+}
+.WhiteBox{
+    width: 550px;
+    height: 600px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 400px;
+    left:363px;
+    background-color: white;
+}
+.YellowBox{
+    width: 600px;
+    height: 900px;
+    flex-shrink: 0;
+    background-color: #FFCC4A;
+    position: absolute;
+    top: 500px;
+    left:729px;
+}
+.Whitep{
+    width: 400px;
+    height: 700px;
+    color: #000;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 32px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.WhiteBox1{
+    width: 500px;
+    height: 400px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 1430px;
+    left:400px;
+    background-color: white;
+}
+.iconComp{
+    width:30px;
+    height:30px;
+    background: url(/images/accounting1.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.title1{
+    color: #000;
+    font-family: Cabin;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position:relative;
+    top:1700px;
+    left:30px;
+}
+.WhiteBox2{
+    width: 729px;
+    height: 1100px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 2100px;
+    background-color: white;
+}
+.YellowBox2{
+    width: 500px;
+    height: 350px;
+    flex-shrink: 0;
+    background-color: #FFCC4A;
+    position: absolute;
+    top: 2150px;
+    left:390px;
+}
+.BlackBox2{
+    width: 500px;
+    height: 250px;
+    flex-shrink: 0;
+    background-color: black;
+    position: absolute;
+    top: 2200px;
+    left:800px;
+}
+.footer2{
+    width:1690px;
+    position: absolute;
+    top:3200px;
+    
+}
+.icondigital{
+    width:30px;
+    height:30px;
+    background: url(/images/settings.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    margin-top: 40px;
+    margin-left: 120px; 
+}
+.iconrelation{
+    width:30px;
+    height:30px;
+    background: url(/images/relation.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    margin-top: 100px;
+    margin-left: 100px; 
+}
+.iconcreation{
+    width:30px;
+    height:30px;
+    background: url(/images/inspiration.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    margin-top: 40px;
+    margin-left: 40px;   
+}

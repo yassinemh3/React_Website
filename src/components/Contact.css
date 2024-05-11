@@ -1,0 +1,105 @@
+.bodyC{
+    max-width: 100%;
+    height: 1024px;
+    background:white;
+}
+.boxG{
+    width: 160px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #4EAF4E;
+    position: relative;
+    top: 150px;
+    left: 140px;
+    color: #FFF;
+    text-align: center;
+    font-family: Cabin,sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px; /* 0% */
+    border:none;
+}
+.pC1{
+    color: #000;
+    text-align: center;
+    font-family: Cabin, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px; /* 0% */
+    left:140px;
+    top:3240px;
+    position:absolute;
+}
+.pC2{
+    width: 474.726px;
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Cabin;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    left:140px;
+    top:220px;
+    position: relative;
+}
+.phoneicon{
+    width: 75px;
+    height: 76px;
+    flex-shrink: 0;
+    background: url(/images/phon.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    left:140px;
+    top:250px;
+    position: relative;
+
+}
+.pC3{
+    color: rgba(0, 0, 0, 0.52);
+    font-family: Cabin;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+.pC4{
+    color: #000;
+    font-family: Cabin;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 115.385% */
+}
+.clockicon{
+    width: 75px;
+    height: 76px;
+    flex-shrink: 0;
+    background: url(/images/clock1.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    left:140px;
+    top:230px;
+    position: relative;
+}
+.locicon{
+    width: 75px;
+    height: 76px;
+    flex-shrink: 0;
+    background: url(/images/location1.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    left:140px;
+    top:200px;
+    position: relative;
+}
+.emailicon{
+    width: 75px;
+    height: 76px;
+    flex-shrink: 0;
+    background: url(/images/email1.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    left:140px;
+    top:170px;
+    position: relative;
+
+}

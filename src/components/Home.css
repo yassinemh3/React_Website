@@ -1,0 +1,249 @@
+.body {
+    max-width: 100%;
+   height: 100%;
+    margin: 0px;
+    padding: 0%;
+    overflow-x: hidden;  
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+.Wbox{
+    width: 650px;
+    height: 430px;
+    background-color: rgba(255, 255, 255, 0.767);
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    border-radius: 30px;
+    animation: myAnim 1s ease 10ms 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.navBar{
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: rgba(27, 27, 27, .85);
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+.navtxt{
+color: #FFF;
+font-family: Lato, sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 0px; 
+left: 760px;
+top: 60px;
+position: absolute;
+transition: color 0s ease-out 100ms;
+text-decoration: none; 
+}
+
+.navtxt:hover {
+    color: #4EAF4E;
+    text-decoration:none;
+    font-size: 23px;
+  }
+.Tel{
+width: 240px;
+height: 58.841px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #ffffff;
+left: 1300px;
+top: 28px;
+position: absolute;
+border: none;
+}
+.Tel:hover{
+    background: #4EAF4E;
+}
+
+
+.circle{
+width: 45px;
+height: 45px;
+flex-shrink: 0;  
+background: url(/images/phone1.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+background-size: 100% 100%;
+left: 12px;
+top: 0px;
+position:relative;
+
+}
+.Nr{
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0px; 
+    left: 25px;
+    top: -23px;
+    position:relative;
+}
+
+.logo{
+    width: 130px;
+    height: 50px;
+    flex-shrink: 0;  
+    background: url(/images/cck-high-resolution-logo-color-on-transparent-background.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    left: 80px;
+    top: 35px;
+    position:absolute;
+    
+    }
+
+ .pr2{
+    width: 500px;
+    color: #0000009f;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    left: 44px;
+    top: 160px;
+    position:absolute;
+    } 
+.BtnS{
+    width: 244px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #000;
+    left: 44px;
+    top: 300px;
+    color: #FFF;
+    position: absolute;
+    font-family: Lato,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 208.333% */
+    border: none;
+  
+}
+.BtnS:hover{
+    background: #ffffff;
+    color: black;
+}
+.BtnC{
+    width: 244px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background:#FFF;
+    left: 360px;
+    top: 300px;
+    position: absolute;
+}
+.BtnC:hover{
+    background-color: #FFCC4A;
+}
+.pr3{
+    color: #000;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px; /* 250% */
+    left: 23px;
+    top: 0px;
+    position: relative;
+}
+.Cicon{
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;  
+    background: url(/images/contact\ logo.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+    left: 14px;
+    top: 4px;
+    position:absolute;
+}
+.BBox{
+    max-width:100%;
+    height: 50px;
+    background-color: #000000;
+}
+.clock{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    background: url(/images/clock.png) ,rgba(255, 255, 255, 0) 100% / cover no-repeat;
+    background-size: 100% 100%;
+    left:206px;
+    top: 16px;
+    position:absolute;
+}
+.clockp{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    left:232px;
+    top: 25px;
+    position:absolute;
+}
+.pos{
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    background: url(/images/placeholder.png) ,rgba(255, 255, 255, 0) 100% / cover no-repeat;
+    background-size: 100% 100%;
+    left:490px;
+    top: 14px;
+    position:absolute;
+}
+.posp{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 0px;
+    left:515px;
+    top: 25px;
+    position:absolute;
+}
+.fb{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    background: url(/images/facebook.png) ,rgba(255, 255, 255, 0) 100% / cover no-repeat;
+    background-size: 100% 100%;
+    left:1200px;
+    top: 12px;
+    position:absolute;
+}
+.email{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    background: url(/images/email.png) ,rgba(255, 255, 255, 0) 100% / cover no-repeat;
+    background-size: 100% 100%;
+    left:1260px;
+    top: 10px;
+    position:absolute;
+}

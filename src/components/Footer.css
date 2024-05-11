@@ -1,0 +1,7 @@
+.logo1{
+    width: 130px;
+    height: 50px;
+    flex-shrink: 0;  
+    background: url(/images/cck-high-resolution-logo-color-on-transparent-background.png), rgba(211, 211, 211, 0) 50% / cover no-repeat;
+    background-size: 100% 100%;
+}

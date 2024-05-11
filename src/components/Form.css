@@ -1,0 +1,78 @@
+.contact__form .form-control {
+    padding: 2rem 1rem;
+    line-height: 1.5;
+    color: black;
+    background-color:rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 1.5px solid rgb(216, 216, 216);
+}
+
+.contact__form input.form-control {
+    margin-bottom: 2em;
+    height: calc(2.5em + .75rem + 2px);
+    
+}
+
+button.btn.ac_btn:hover {
+    color: var(--secondary-color);
+}
+
+.loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    z-index: 999999999;
+    background: var(--text-color);
+    transform: translateX(100%);
+    animation: shift-rightwards 1s ease-in-out infinite;
+    animation-delay: .3s;
+}
+
+@keyframes shift-rightwards {
+    0% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(0%);
+    }
+    60% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+.BtnSubmit{
+    width: 200px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #000;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */ 
+    border: none;
+}
+.BtnSubmit:hoover{
+    color: black;
+    background: white;
+}
+.form{
+    left:830px;
+    top:3300px;
+    position: absolute;
+}
+label{
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    padding: .4rem 1rem;
+}
