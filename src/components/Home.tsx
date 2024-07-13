@@ -13,7 +13,7 @@ const Type = () => {
     <TypeAnimation
       sequence={[
        1500,
-        'Cabinet de Comptabilite\nKarima Kahna'
+        'Cabinet de Comptabilite'
       ]}
       wrapper="span"
       style={{color: '#000',
@@ -63,9 +63,9 @@ const Home = () => {
   </div>
   <div className="Wbox">
     <Type />
-    <p className="pr2">Le Cabinet Karima Kahna, est une firme 
+    <p className="pr2">Le Cabinet , est une firme 
     d’expertise comptable. Avec plus de 20 ans d’expérience 
-    dans le domaine, Karima, Expert Comptable Fondateur, 
+    dans le domaine, Expert Comptable Fondateur, 
     Membre de l’Ordre des Experts Comptables de Tunisie.</p>
     <button className="BtnS">Nos Services</button>
     <button className="BtnC">
